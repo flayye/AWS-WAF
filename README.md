@@ -1,6 +1,9 @@
 # AWS Web Application Firewalls
+
+<img src="/WAF/WAF_structure.PNG">
+
 ## Results:
-### Only my laptop IP address can access the web server
+### Only my laptop IP address can access the EC2 Instance
 <img src="/WAF/s28.jpg" width="306" height="118">
 <img src="/WAF/s18.PNG" width="789" height="372">
 
