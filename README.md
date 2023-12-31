@@ -17,7 +17,7 @@
 <img src="/WAF/s34.PNG" width="505" height="291"> <img src="/WAF/s35.PNG" width="502" height="287">
 
 
-# Details step by step procedure
+# Step-By-Step Procedures
 
 <details>
   <summary>Click to expand</summary>
