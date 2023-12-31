@@ -1,0 +1,44 @@
+#!/bin/bash
+
+# Update and install Apache2
+yes | sudo apt update
+yes | sudo apt install apache2
+
+# Create a more detailed HTML page
+cat <<EOF | sudo tee /var/www/html/index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to My Server</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            color: #0056b3;
+        }
+        .server-info {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 7px;
+            box-shadow: 0 2px 4px rgba(0,0,0,.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Server</h1>
+    <div class="server-info">
+        <h2>Server Details</h2>
+        <p><strong>Hostname:</strong> $(hostname)</p>
+        <p><strong>IP Address:</strong> $(hostname -I | awk '{print $1}')</p>
+    </div>
+</body>
+</html>
+EOF
+
+# Restart Apache to apply changes
+sudo systemctl restart apache2
