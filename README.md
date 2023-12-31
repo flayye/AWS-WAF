@@ -9,7 +9,7 @@
 
 ### Using a different IP address will result in 403 Forbidden
 <img src="/WAF/s27.PNG" width="323" height="109">
-<img src="/WAF/s26.PNG" width="1234" height="254">
+<img src="/WAF/s26.PNG" width="756" height="183">
 
 ### If attacker try to access ``/admin`` or ``/login`` directory, it will run a CAPTCHA challenge
 - This blocked bad bot intrusion attacks
