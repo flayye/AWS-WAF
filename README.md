@@ -16,13 +16,13 @@
 
 <img src="/WAF/s34.PNG" width="505" height="291"> <img src="/WAF/s35.PNG" width="502" height="287">
 
-<img src="/WAF/n1.PNG" width="323" height="109">
+<img src="/WAF/n1.PNG">
 
-<img src="/WAF/n2.PNG" width="323" height="109">
+<img src="/WAF/n2.PNG" >
 
-<img src="/WAF/n3.PNG" width="323" height="109">
+<img src="/WAF/n3.PNG" >
 
-<img src="/WAF/n4.PNG" width="323" height="109">
+<img src="/WAF/n4.PNG" >
 
 <img src="/WAF/n5.PNG">
 # Step-By-Step Procedures
