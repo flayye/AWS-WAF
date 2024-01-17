@@ -16,15 +16,18 @@
 
 <img src="/WAF/s34.PNG" width="505" height="291"> <img src="/WAF/s35.PNG" width="502" height="287">
 
-<img src="/WAF/n1.PNG">
+## SQL injection mitigation
 
 <img src="/WAF/n2.PNG" >
 
 <img src="/WAF/n3.PNG" >
 
+## Prevent access to the Wordpress admin login page
+
 <img src="/WAF/n4.PNG" >
 
 <img src="/WAF/n5.PNG">
+
 # Step-By-Step Procedures
 
 <details>
