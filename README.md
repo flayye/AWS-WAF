@@ -1,20 +1,23 @@
 # AWS Web Application Firewalls
+
+<img src="/WAF/WAF_structure.PNG">
+
 ## Results:
-### Only my laptop IP address can access the web server
+### Only my devices IP address can access the EC2 Instance
 <img src="/WAF/s28.jpg" width="306" height="118">
 <img src="/WAF/s18.PNG" width="789" height="372">
 
 ### Using a different IP address will result in 403 Forbidden
 <img src="/WAF/s27.PNG" width="323" height="109">
-<img src="/WAF/s26.PNG" width="1134" height="274">
+<img src="/WAF/s26.PNG" width="756" height="183">
 
 ### If attacker try to access ``/admin`` or ``/login`` directory, it will run a CAPTCHA challenge
 - This blocked bad bot intrusion attacks
 
-<img src="/WAF/s34.PNG" width="455" height="291"> <img src="/WAF/s35.PNG" width="452" height="287">
+<img src="/WAF/s34.PNG" width="505" height="291"> <img src="/WAF/s35.PNG" width="502" height="287">
 
 
-# Details step by step procedure
+# Step-By-Step Procedures
 
 <details>
   <summary>Click to expand</summary>
