@@ -24,8 +24,6 @@
 
 ## Prevent access to the Wordpress admin login page
 
-<img src="/WAF/n4.PNG" >
-
 <img src="/WAF/n5.PNG">
 
 # Step-By-Step Procedures
